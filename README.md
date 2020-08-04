@@ -67,4 +67,4 @@ Flex your querySelectors!
 ### Stretch Goals
 
 1. Make it so that when you click the "Switch Background Color" button, you switch it back and forth from white to whatever color you chose. This doesn't require another event listener, but, rather, a rewrite of the function you made into your event listener.
-2. Add a new event listener so that when the `biggify` dinosaur is no longer hovered, they changes back to their original size.
+2. Add a new event listener so that when the `biggify` dinosaur is no longer hovered, they change back to their original size. You'll have to use a different kind of event than you did before, but... it's a related event with a similar name.
