@@ -5,14 +5,14 @@ para.style.background = 'green';
 const hiddenImg = document.querySelector("#hide-me");
 hiddenImg.style.display = "none";
 const  tri = document.querySelector("img#triceratops");
-tri.style.width = "324";
+tri.style.width = "324px";
 const spanOrange = function(){
     mwm.style.color = 'orange';
 }
 mwm.addEventListener('click',spanOrange);
 
 const redBorder = function(){
-    tri.style.border = "red";
+    tri.style.border = "3px solid red";
 }
 tri.addEventListener('click', redBorder);
 
@@ -20,9 +20,10 @@ const feather = document.querySelector("#feathers");
 const big = document.querySelector("#biggify");
 const trans50 = function(){
     feather.style.opacity = "0.5";
+
 }
 const enhance = function(){
-    big.style.width = '200';
+    big.style.width= "200px";
 }
 feather.addEventListener('click',trans50);
 big.addEventListener('mouseover',enhance);
